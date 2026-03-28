@@ -38,6 +38,35 @@
       "md": { "$value": "6px", "$type": "dimension" },
       "lg": { "$value": "8px", "$type": "dimension" },
       "full": { "$value": "9999px", "$type": "dimension" }
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": { "$value": "Inter", "$type": "fontFamily" }
+      },
+      "fontSize": {
+        "xs": { "$value": "14px", "$type": "dimension", "$description": "Small text, captions" },
+        "sm": { "$value": "16px", "$type": "dimension", "$description": "Secondary text, metadata" },
+        "base": { "$value": "18px", "$type": "dimension", "$description": "Primary body text" },
+        "lg": { "$value": "20px", "$type": "dimension", "$description": "Large body, prominent UI elements" },
+        "xl": { "$value": "24px", "$type": "dimension", "$description": "Small headings (h4/h5)" },
+        "2xl": { "$value": "30px", "$type": "dimension", "$description": "Medium headings (h3)" },
+        "3xl": { "$value": "36px", "$type": "dimension", "$description": "Large headings (h2)" },
+        "4xl": { "$value": "48px", "$type": "dimension", "$description": "Display headings (h1)" },
+        "5xl": { "$value": "60px", "$type": "dimension", "$description": "Hero display sizes" }
+      },
+      "fontWeight": {
+        "normal": { "$value": "400", "$type": "fontWeight" },
+        "medium": { "$value": "500", "$type": "fontWeight" },
+        "semibold": { "$value": "600", "$type": "fontWeight" },
+        "bold": { "$value": "700", "$type": "fontWeight" }
+      },
+      "lineHeight": {
+        "none": { "$value": "1", "$type": "number" },
+        "tight": { "$value": "1.25", "$type": "number" },
+        "snug": { "$value": "1.375", "$type": "number" },
+        "normal": { "$value": "1.5", "$type": "number", "$description": "Standard body line-height" },
+        "relaxed": { "$value": "1.625", "$type": "number" }
+      }
     }
   },
   "Semantic": {
@@ -193,6 +222,63 @@
         "$type": "dimension",
         "$value": "{Primitives.radius.md}",
         "$description": "Radius applies globally to both light and dark modes"
+      }
+    }
+  },
+  "Component": {
+    "button": {
+      "primary": {
+        "background": {
+          "default": { "$type": "color", "$value": "{Semantic.theme.primary.DEFAULT}" },
+          "hover": { 
+            "$type": "color", 
+            "$value": {
+              "light": "{Primitives.color.slate.800}",
+              "dark": "{Primitives.color.slate.200}"
+            },
+            "$description": "Solid primitive fallback for Shadcn's primary/90 hover"
+          }
+        },
+        "foreground": { "$type": "color", "$value": "{Semantic.theme.primary.foreground}" }
+      },
+      "secondary": {
+        "background": {
+          "default": { "$type": "color", "$value": "{Semantic.theme.secondary.DEFAULT}" },
+          "hover": { 
+            "$type": "color", 
+            "$value": {
+              "light": "{Primitives.color.slate.200}",
+              "dark": "{Primitives.color.slate.700}"
+            },
+            "$description": "Solid primitive fallback for Shadcn's secondary/80 hover"
+          }
+        },
+        "foreground": { "$type": "color", "$value": "{Semantic.theme.secondary.foreground}" }
+      },
+      "ghost": {
+        "background": {
+          "hover": { "$type": "color", "$value": "{Semantic.theme.accent.DEFAULT}" }
+        },
+        "foreground": {
+          "default": { "$type": "color", "$value": "{Semantic.theme.primary.DEFAULT}" },
+          "hover": { "$type": "color", "$value": "{Semantic.theme.accent.foreground}" }
+        }
+      },
+      "destructive": {
+        "background": {
+          "default": { "$type": "color", "$value": "{Semantic.theme.destructive.DEFAULT}" },
+          "hover": { 
+            "$type": "color", 
+            "$value": {
+              "light": "{Primitives.color.red.900}",
+              "dark": "{Primitives.color.red.500}"
+            }
+          }
+        },
+        "foreground": { "$type": "color", "$value": "{Semantic.theme.destructive.foreground}" }
+      },
+      "outline": {
+        "border": { "$type": "color", "$value": "{Semantic.theme.input}" }
       }
     }
   }
