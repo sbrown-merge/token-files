@@ -1,0 +1,168 @@
+{
+  "color": {
+    "primitive": {
+      "brand": {
+        "blue": {
+          "$type": "color",
+          "$value": "#00529b",
+          "$description": "Lisraya Core Brand Blue"
+        },
+        "orange": {
+          "$type": "color",
+          "$value": "#faa31b",
+          "$description": "Lisraya Brand Orange"
+        },
+        "yellow": {
+          "$type": "color",
+          "$value": "#ffc60a",
+          "$description": "Lisraya Brand Yellow"
+        },
+        "yellow-transparent": {
+          "$type": "color",
+          "$value": "#ffc60ab3",
+          "$description": "Brand Yellow at 70% opacity for highlights"
+        }
+      },
+      "neutral": {
+        "white": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "slate-50": {
+          "$type": "color",
+          "$value": "#f8fafc"
+        },
+        "slate-100": {
+          "$type": "color",
+          "$value": "#f1f5f9"
+        },
+        "slate-200": {
+          "$type": "color",
+          "$value": "#e2e8f0"
+        },
+        "slate-700": {
+          "$type": "color",
+          "$value": "#334155"
+        },
+        "slate-800": {
+          "$type": "color",
+          "$value": "#1e293b"
+        },
+        "slate-900": {
+          "$type": "color",
+          "$value": "#0f172a"
+        },
+        "slate-950": {
+          "$type": "color",
+          "$value": "#020817"
+        }
+      }
+    },
+    "theme": {
+      "light": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.primitive.neutral.white}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.primitive.neutral.slate-900}"
+        },
+        "primary": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.blue}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.white}"
+          }
+        },
+        "secondary": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.orange}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.slate-900}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.yellow}"
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.yellow-transparent}"
+          }
+        },
+        "muted": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.slate-100}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.slate-200}"
+          }
+        }
+      },
+      "dark": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.primitive.neutral.slate-950}"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.primitive.neutral.slate-50}"
+        },
+        "primary": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.blue}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.white}"
+          }
+        },
+        "secondary": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.orange}"
+          },
+          "foreground": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.slate-950}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.yellow}"
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.primitive.brand.yellow-transparent}"
+          }
+        },
+        "muted": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.slate-800}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.primitive.neutral.slate-700}"
+          }
+        }
+      }
+    }
+  }
+}

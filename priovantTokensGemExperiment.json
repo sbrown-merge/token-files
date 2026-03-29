@@ -1,0 +1,145 @@
+{
+  "$version": "1.0",
+  "$description": "Lisraya Brand Digital Design Tokens (W3C DTCG Format)",
+  "source": "Lisraya Brand Style Guide 2026",
+  "color": {
+    "core": {
+      "primary": {
+        "50": { "$type": "color", "$value": "#e6eff5" },
+        "100": { "$type": "color", "$value": "#b3d4e8" },
+        "200": { "$type": "color", "$value": "#80b9da" },
+        "300": { "$type": "color", "$value": "#4d9ecd" },
+        "400": { "$type": "color", "$value": "#268ac3" },
+        "500": { "$type": "color", "$value": "#00529b", "$description": "Core Brand Blue (Pantone 2145 C)" },
+        "600": { "$type": "color", "$value": "#004a8c" },
+        "700": { "$type": "color", "$value": "#00396c" },
+        "800": { "$type": "color", "$value": "#00294d" },
+        "900": { "$type": "color", "$value": "#00182e" }
+      },
+      "secondary": {
+        "50": { "$type": "color", "$value": "#fff6e8" },
+        "100": { "$type": "color", "$value": "#fee8b8" },
+        "200": { "$type": "color", "$value": "#fdd989" },
+        "300": { "$type": "color", "$value": "#fcca59" },
+        "400": { "$type": "color", "$value": "#fbbd36" },
+        "500": { "$type": "color", "$value": "#faa31b", "$description": "Brand Orange (Pantone 137 C)" },
+        "600": { "$type": "color", "$value": "#e19318" },
+        "700": { "$type": "color", "$value": "#af7213" },
+        "800": { "$type": "color", "$value": "#7d520e" },
+        "900": { "$type": "color", "$value": "#4b3108" }
+      },
+      "tertiary": {
+        "50": { "$type": "color", "$value": "#fff9e6" },
+        "100": { "$type": "color", "$value": "#fff0b3" },
+        "200": { "$type": "color", "$value": "#ffe780" },
+        "300": { "$type": "color", "$value": "#ffde4d" },
+        "400": { "$type": "color", "$value": "#ffd526" },
+        "500": { "$type": "color", "$value": "#ffc60a", "$description": "Brand Yellow (Pantone 7548 C)" },
+        "600": { "$type": "color", "$value": "#e6b209" },
+        "700": { "$type": "color", "$value": "#b38b07" },
+        "800": { "$type": "color", "$value": "#806305" },
+        "900": { "$type": "color", "$value": "#4d3b03" }
+      },
+      "neutral": {
+        "50": { "$type": "color", "$value": "#f8f9fa" },
+        "100": { "$type": "color", "$value": "#f1f3f5" },
+        "200": { "$type": "color", "$value": "#e9ecef" },
+        "300": { "$type": "color", "$value": "#dee2e6" },
+        "400": { "$type": "color", "$value": "#ced4da" },
+        "500": { "$type": "color", "$value": "#adb5bd" },
+        "600": { "$type": "color", "$value": "#6c757d" },
+        "700": { "$type": "color", "$value": "#495057" },
+        "800": { "$type": "color", "$value": "#343a40" },
+        "900": { "$type": "color", "$value": "#212529" }
+      },
+      "success": {
+        "400": { "$type": "color", "$value": "#34d399" },
+        "500": { "$type": "color", "$value": "#10b981" }
+      },
+      "error": {
+        "400": { "$type": "color", "$value": "#fb7185" },
+        "500": { "$type": "color", "$value": "#f43f5e" }
+      },
+      "warning": {
+        "400": { "$type": "color", "$value": "#fbbf24" },
+        "500": { "$type": "color", "$value": "#f59e0b" }
+      }
+    }
+  },
+  "theme": {
+    "light": {
+      "color": {
+        "bg": {
+          "default": { "$type": "color", "$value": "#ffffff", "$description": "Primary page background" },
+          "subtle": { "$type": "color", "$value": "{color.core.neutral.50}", "$description": "Secondary sections and cards" },
+          "emphasis": { "$type": "color", "$value": "{color.core.neutral.100}", "$description": "Elevated or highly distinct surfaces" }
+        },
+        "border": {
+          "default": { "$type": "color", "$value": "{color.core.neutral.200}", "$description": "Subtle structural dividers" },
+          "strong": { "$type": "color", "$value": "{color.core.neutral.400}", "$description": "Inputs and emphasized borders" }
+        },
+        "text": {
+          "default": { "$type": "color", "$value": "{color.core.neutral.900}", "$description": "Primary typography" },
+          "subtle": { "$type": "color", "$value": "{color.core.neutral.600}", "$description": "Secondary typography and metadata" },
+          "onAccent": { "$type": "color", "$value": "#ffffff", "$description": "Text inside primary brand components" }
+        },
+        "accent": {
+          "primary": {
+            "default": { "$type": "color", "$value": "{color.core.primary.500}", "$description": "Primary buttons, active states, and links" },
+            "hover": { "$type": "color", "$value": "{color.core.primary.600}" },
+            "pressed": { "$type": "color", "$value": "{color.core.primary.700}" },
+            "disabled": { "$type": "color", "$value": "{color.core.neutral.300}" }
+          }
+        },
+        "feedback": {
+          "success": { "$type": "color", "$value": "{color.core.success.500}" },
+          "error": { "$type": "color", "$value": "{color.core.error.500}" },
+          "warning": { "$type": "color", "$value": "{color.core.warning.500}" }
+        }
+      }
+    },
+    "dark": {
+      "color": {
+        "bg": {
+          "default": { "$type": "color", "$value": "#121212", "$description": "Primary dark background (elevated from pitch black)" },
+          "subtle": { "$type": "color", "$value": "#1e1e1e", "$description": "Secondary dark sections and cards" },
+          "emphasis": { "$type": "color", "$value": "#2a2a2a", "$description": "Elevated surfaces like modals" }
+        },
+        "border": {
+          "default": { "$type": "color", "$value": "{color.core.neutral.700}" },
+          "strong": { "$type": "color", "$value": "{color.core.neutral.600}" }
+        },
+        "text": {
+          "default": { "$type": "color", "$value": "{color.core.neutral.50}" },
+          "subtle": { "$type": "color", "$value": "{color.core.neutral.400}" },
+          "onAccent": { "$type": "color", "$value": "#121212", "$description": "Inverted text for dark mode buttons to maintain contrast" }
+        },
+        "accent": {
+          "primary": {
+            "default": { "$type": "color", "$value": "{color.core.primary.300}", "$description": "Desaturated & lightened for WCAG AA contrast against dark surfaces" },
+            "hover": { "$type": "color", "$value": "{color.core.primary.200}" },
+            "pressed": { "$type": "color", "$value": "{color.core.primary.100}" },
+            "disabled": { "$type": "color", "$value": "{color.core.neutral.700}" }
+          }
+        },
+        "feedback": {
+          "success": { "$type": "color", "$value": "{color.core.success.400}" },
+          "error": { "$type": "color", "$value": "{color.core.error.400}" },
+          "warning": { "$type": "color", "$value": "{color.core.warning.400}" }
+        }
+      }
+    }
+  },
+  "fontFamily": {
+    "heading": {
+      "$type": "fontFamily",
+      "$value": "Montserrat Alternates",
+      "$description": "Logo and primary headings"
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": "Neue Haas Grotesk Display Pro",
+      "$description": "Body copy and UI text"
+    }
+  }
+}
