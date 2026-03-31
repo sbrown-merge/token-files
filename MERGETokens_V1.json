@@ -1,0 +1,258 @@
+{
+  "$version": "1.0",
+  "$description": "MERGE Brand Design Tokens for Digital Products",
+  "source": "MERGEColors.md",
+  "color": {
+    "brand": {
+      "warmGray": {
+        "50": { "$type": "color", "$value": "#FDFCFB" },
+        "100": { "$type": "color", "$value": "#F5F4F0" },
+        "200": { "$type": "color", "$value": "#EAE8E3", "$description": "Primary: Warm Gray (Background floods)" },
+        "300": { "$type": "color", "$value": "#DFDCD5" },
+        "400": { "$type": "color", "$value": "#D3CEC5" },
+        "500": { "$type": "color", "$value": "#C6C0B5" },
+        "600": { "$type": "color", "$value": "#A19A88" },
+        "700": { "$type": "color", "$value": "#827C6C" },
+        "800": { "$type": "color", "$value": "#635E50" },
+        "900": { "$type": "color", "$value": "#454136" }
+      },
+      "viridian": {
+        "50": { "$type": "color", "$value": "#E5F2F0" },
+        "100": { "$type": "color", "$value": "#BFE0DA" },
+        "200": { "$type": "color", "$value": "#95CCC2" },
+        "300": { "$type": "color", "$value": "#66B5A7" },
+        "400": { "$type": "color", "$value": "#339C8B" },
+        "500": { "$type": "color", "$value": "#00856C", "$description": "Primary: Viridian Green (Headers, Subheads)" },
+        "600": { "$type": "color", "$value": "#00735D" },
+        "700": { "$type": "color", "$value": "#005C4A" },
+        "800": { "$type": "color", "$value": "#004537" },
+        "900": { "$type": "color", "$value": "#002E25" }
+      },
+      "darkGreen": {
+        "50": { "$type": "color", "$value": "#E7ECEB" },
+        "100": { "$type": "color", "$value": "#C3D0CE" },
+        "200": { "$type": "color", "$value": "#9BB1AD" },
+        "300": { "$type": "color", "$value": "#73928D" },
+        "400": { "$type": "color", "$value": "#4B736C" },
+        "500": { "$type": "color", "$value": "#24544D" },
+        "600": { "$type": "color", "$value": "#1C4740" },
+        "700": { "$type": "color", "$value": "#18413B" },
+        "800": { "$type": "color", "$value": "#133B34", "$description": "Primary: Dark Green (Headers, Subheads, Floods)" },
+        "900": { "$type": "color", "$value": "#0D2A25" }
+      },
+      "electrolight": {
+        "50": { "$type": "color", "$value": "#E8FBEF" },
+        "100": { "$type": "color", "$value": "#C5F5D6" },
+        "200": { "$type": "color", "$value": "#9DEEBA" },
+        "300": { "$type": "color", "$value": "#71E59C" },
+        "400": { "$type": "color", "$value": "#45DE7E" },
+        "500": { "$type": "color", "$value": "#1ED75F", "$description": "Secondary: Electrolight Green (Accent graphics)" },
+        "600": { "$type": "color", "$value": "#18B850" },
+        "700": { "$type": "color", "$value": "#139641" },
+        "800": { "$type": "color", "$value": "#0E7431" },
+        "900": { "$type": "color", "$value": "#0A5222" }
+      },
+      "forestGreen": {
+        "50": { "$type": "color", "$value": "#E5EEED" },
+        "100": { "$type": "color", "$value": "#BFD5D3" },
+        "200": { "$type": "color", "$value": "#95B8B6" },
+        "300": { "$type": "color", "$value": "#669996" },
+        "400": { "$type": "color", "$value": "#337A76" },
+        "500": { "$type": "color", "$value": "#006C68" },
+        "600": { "$type": "color", "$value": "#005E5A" },
+        "700": { "$type": "color", "$value": "#00524F", "$description": "Secondary: Forest Green" },
+        "800": { "$type": "color", "$value": "#003331" },
+        "900": { "$type": "color", "$value": "#002422" }
+      },
+      "gray": {
+        "50": { "$type": "color", "$value": "#FAFAFA" },
+        "100": { "$type": "color", "$value": "#EAEAEA" },
+        "200": { "$type": "color", "$value": "#D0D1D2" },
+        "300": { "$type": "color", "$value": "#B3B4B5" },
+        "400": { "$type": "color", "$value": "#949494", "$description": "Tertiary: Gray" },
+        "500": { "$type": "color", "$value": "#7A7B7D" },
+        "600": { "$type": "color", "$value": "#636466", "$description": "Secondary: Medium Gray (Body copy)" },
+        "700": { "$type": "color", "$value": "#4D4E50" },
+        "800": { "$type": "color", "$value": "#363839" },
+        "900": { "$type": "color", "$value": "#212721", "$description": "Secondary: Black (Text)" }
+      },
+      "ocean": {
+        "50": { "$type": "color", "$value": "#E0F1F5" },
+        "100": { "$type": "color", "$value": "#B3DDE6" },
+        "200": { "$type": "color", "$value": "#80C5D4" },
+        "300": { "$type": "color", "$value": "#4DBEC2" },
+        "400": { "$type": "color", "$value": "#0DA4B5", "$description": "Tertiary: Teal" },
+        "500": { "$type": "color", "$value": "#0A92A2" },
+        "600": { "$type": "color", "$value": "#07808D", "$description": "Tertiary: Deep Sea Blue" },
+        "700": { "$type": "color", "$value": "#06616B" },
+        "800": { "$type": "color", "$value": "#04434A" },
+        "900": { "$type": "color", "$value": "#082333", "$description": "Tertiary: Navy Blue" }
+      },
+      "chartGreen": {
+        "50": { "$type": "color", "$value": "#E5F6F1" },
+        "100": { "$type": "color", "$value": "#BFE8DC" },
+        "200": { "$type": "color", "$value": "#95D8C4" },
+        "300": { "$type": "color", "$value": "#66C6AB" },
+        "400": { "$type": "color", "$value": "#33B48E" },
+        "500": { "$type": "color", "$value": "#00A271", "$description": "Tertiary: Chart Green" },
+        "600": { "$type": "color", "$value": "#008A60" },
+        "700": { "$type": "color", "$value": "#006E4D" },
+        "800": { "$type": "color", "$value": "#00533A" },
+        "900": { "$type": "color", "$value": "#003726" }
+      }
+    },
+    "feedback": {
+      "success": {
+        "500": { "$type": "color", "$value": "{color.brand.chartGreen.500}", "$description": "Mapped to Chart Green" },
+        "400": { "$type": "color", "$value": "{color.brand.chartGreen.400}" }
+      },
+      "error": {
+        "500": { "$type": "color", "$value": "#D92D20", "$description": "Standard error red" },
+        "400": { "$type": "color", "$value": "#F04438", "$description": "Accessible dark mode error" }
+      },
+      "warning": {
+        "500": { "$type": "color", "$value": "#F79009", "$description": "Standard warning amber" },
+        "400": { "$type": "color", "$value": "#FEC84B", "$description": "Accessible dark mode warning" }
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": { "$type": "fontFamily", "$value": "Sofia Pro" },
+      "body": { "$type": "fontFamily", "$value": "Sofia Pro" }
+    },
+    "fontSize": {
+      "xs": { "$type": "dimension", "$value": "6px", "$description": "Base ÷ 1.618²" },
+      "sm": { "$type": "dimension", "$value": "10px", "$description": "Base ÷ 1.618" },
+      "base": { "$type": "dimension", "$value": "16px", "$description": "Primary base size" },
+      "lg": { "$type": "dimension", "$value": "26px", "$description": "Base × 1.618" },
+      "xl": { "$type": "dimension", "$value": "42px", "$description": "Base × 1.618²" },
+      "2xl": { "$type": "dimension", "$value": "68px", "$description": "Base × 1.618³" },
+      "3xl": { "$type": "dimension", "$value": "110px", "$description": "Base × 1.618⁴" },
+      "4xl": { "$type": "dimension", "$value": "178px", "$description": "Base × 1.618⁵" }
+    },
+    "fontWeight": {
+      "regular": { "$type": "fontWeight", "$value": "400" },
+      "medium": { "$type": "fontWeight", "$value": "500" },
+      "bold": { "$type": "fontWeight", "$value": "700" },
+      "black": { "$type": "fontWeight", "$value": "900" }
+    }
+  },
+  "spacing": {
+    "xs": { "$type": "dimension", "$value": "4px" },
+    "sm": { "$type": "dimension", "$value": "8px" },
+    "md": { "$type": "dimension", "$value": "16px" },
+    "lg": { "$type": "dimension", "$value": "24px" },
+    "xl": { "$type": "dimension", "$value": "32px" },
+    "2xl": { "$type": "dimension", "$value": "48px" },
+    "3xl": { "$type": "dimension", "$value": "64px" }
+  },
+  "theme": {
+    "light": {
+      "color": {
+        "bg": {
+          "default": { "$type": "color", "$value": "{color.brand.warmGray.200}", "$description": "Warm Gray flood" },
+          "subtle": { "$type": "color", "$value": "#FFFFFF" },
+          "emphasis": { "$type": "color", "$value": "{color.brand.gray.200}" }
+        },
+        "border": {
+          "default": { "$type": "color", "$value": "{color.brand.gray.300}" },
+          "strong": { "$type": "color", "$value": "{color.brand.gray.600}" }
+        },
+        "text": {
+          "default": { "$type": "color", "$value": "{color.brand.gray.900}", "$description": "Black copy" },
+          "subtle": { "$type": "color", "$value": "{color.brand.gray.600}", "$description": "Medium Gray copy (Passes 4.83)" },
+          "inverse": { "$type": "color", "$value": "{color.brand.warmGray.200}" }
+        },
+        "accent": {
+          "primary": { "$type": "color", "$value": "{color.brand.viridian.500}" },
+          "secondary": { "$type": "color", "$value": "{color.brand.electrolight.500}" }
+        },
+        "feedback": {
+          "success": { "$type": "color", "$value": "{color.feedback.success.500}" },
+          "error": { "$type": "color", "$value": "{color.feedback.error.500}" },
+          "warning": { "$type": "color", "$value": "{color.feedback.warning.500}" }
+        },
+        "button": {
+          "primary": {
+            "bg": {
+              "default": { "$type": "color", "$value": "{color.brand.viridian.500}" },
+              "hover": { "$type": "color", "$value": "{color.brand.viridian.600}" },
+              "pressed": { "$type": "color", "$value": "{color.brand.viridian.700}" },
+              "disabled": { "$type": "color", "$value": "{color.brand.gray.300}" }
+            },
+            "text": {
+              "default": { "$type": "color", "$value": "#FFFFFF", "$description": "Passes 4.59 over Viridian" },
+              "disabled": { "$type": "color", "$value": "{color.brand.gray.500}" }
+            }
+          },
+          "secondary": {
+             "bg": {
+              "default": { "$type": "color", "$value": "{color.brand.darkGreen.800}" },
+              "hover": { "$type": "color", "$value": "{color.brand.darkGreen.700}" },
+              "pressed": { "$type": "color", "$value": "{color.brand.darkGreen.600}" },
+              "disabled": { "$type": "color", "$value": "{color.brand.gray.300}" }
+            },
+            "text": {
+              "default": { "$type": "color", "$value": "{color.brand.electrolight.500}", "$description": "Passes 6.42 over Dark Green" },
+              "disabled": { "$type": "color", "$value": "{color.brand.gray.500}" }
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "color": {
+        "bg": {
+          "default": { "$type": "color", "$value": "{color.brand.darkGreen.800}", "$description": "Dark Green flood" },
+          "subtle": { "$type": "color", "$value": "{color.brand.ocean.900}" },
+          "emphasis": { "$type": "color", "$value": "{color.brand.forestGreen.700}" }
+        },
+        "border": {
+          "default": { "$type": "color", "$value": "{color.brand.forestGreen.600}" },
+          "strong": { "$type": "color", "$value": "{color.brand.forestGreen.400}" }
+        },
+        "text": {
+          "default": { "$type": "color", "$value": "{color.brand.warmGray.200}", "$description": "Passes 10.07 over Dark Green" },
+          "subtle": { "$type": "color", "$value": "{color.brand.electrolight.500}", "$description": "Passes 6.42 over Dark Green" },
+          "inverse": { "$type": "color", "$value": "{color.brand.gray.900}" }
+        },
+        "accent": {
+          "primary": { "$type": "color", "$value": "{color.brand.electrolight.500}" },
+          "secondary": { "$type": "color", "$value": "{color.brand.ocean.400}" }
+        },
+        "feedback": {
+          "success": { "$type": "color", "$value": "{color.feedback.success.400}" },
+          "error": { "$type": "color", "$value": "{color.feedback.error.400}" },
+          "warning": { "$type": "color", "$value": "{color.feedback.warning.400}" }
+        },
+         "button": {
+          "primary": {
+            "bg": {
+              "default": { "$type": "color", "$value": "{color.brand.electrolight.500}" },
+              "hover": { "$type": "color", "$value": "{color.brand.electrolight.400}" },
+              "pressed": { "$type": "color", "$value": "{color.brand.electrolight.300}" },
+              "disabled": { "$type": "color", "$value": "{color.brand.forestGreen.800}" }
+            },
+            "text": {
+              "default": { "$type": "color", "$value": "{color.brand.darkGreen.800}", "$description": "Passes 6.42 over Electrolight" },
+              "disabled": { "$type": "color", "$value": "{color.brand.gray.500}" }
+            }
+          },
+          "secondary": {
+             "bg": {
+              "default": { "$type": "color", "$value": "{color.brand.forestGreen.700}" },
+              "hover": { "$type": "color", "$value": "{color.brand.forestGreen.600}" },
+              "pressed": { "$type": "color", "$value": "{color.brand.forestGreen.500}" },
+              "disabled": { "$type": "color", "$value": "{color.brand.ocean.900}" }
+            },
+            "text": {
+              "default": { "$type": "color", "$value": "{color.brand.electrolight.500}", "$description": "Passes 4.71 over Forest Green" },
+              "disabled": { "$type": "color", "$value": "{color.brand.gray.500}" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
